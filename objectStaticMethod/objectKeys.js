@@ -7,7 +7,7 @@ const person = {
     hasChild: true
 }
 
-function getObjectKeys(object) {
+function getObjectKeys(object = {}) {
     const keys = []
 
     for (const key in object){
