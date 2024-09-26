@@ -26,3 +26,12 @@ const str = new String('hello')
 str.__proto__ = Array.prototype
 
 console.log(str.map((item) => item + 2))
+
+const h = {
+    isHuman: true
+}
+
+const people = Object.create(h)
+
+console.log(people.hasOwnProperty('isHuman'))
+console.log('isHuman' in person)
