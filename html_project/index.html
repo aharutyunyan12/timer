@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #d4af37;
+            border-bottom: 1px solid #d4af37;
+            display: inline-block;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        .menu-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .menu-tabs a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        .menu-tabs a:hover {
+            border-color: #d4af37;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .menu-item {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .menu-item img {
+            width: 120px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .menu-info {
+            flex-grow: 1;
+        }
+
+        .menu-info h3 {
+            margin: 0;
+            color: #d4af37;
+        }
+
+        .menu-info p {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .menu-info span {
+            font-weight: bold;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+        <h1>OUR MENU</h1>
+        <div class="menu-tabs">
+            <a href="#">ALL</a>
+            <a href="#">STARTERS</a>
+            <a href="#">MAIN</a>
+            <a href="#">DRINKS</a>
+            <a href="#">PROMOTION</a>
+        </div>
+
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="image1.jpg" alt="Dish Image">
+                <div class="menu-info">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                    <span>$25</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="image2.jpg" alt="Dish Image">
+                <div class="menu-info">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                    <span>$25</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="image3.jpg" alt="Dish Image">
+                <div class="menu-info">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                    <span>$25</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="image4.jpg" alt="Dish Image">
+                <div class="menu-info">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                    <span>$25</span>
+                </div>
+            </div>
+
+            <!-- Add more items as necessary -->
+        </div>
+    </div>
+
+</body>
+</html>
